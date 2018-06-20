@@ -2,19 +2,24 @@
 Ruby app to find first N prime numbers
 
 ## Setup
-To run the app:
+To set up the app:
 
 ```
- git clone https://github.com/chilphiu/find-prime-numbers
- cd find-prime-numbers
- bundle
+ $ git clone https://github.com/chilphiu/find-prime-numbers
+ $ cd find-prime-numbers
+ $ bundle
+```
+
+## Test
+```
+$ rspec
 ```
 
 ## Usage
 Program returns a 10X10 table with the products of the first 10 prime numbers
 ```
-./primes.rb
-./primes.rb -n <int>
+$ ./primes.rb
+$ ./primes.rb -n <int>
 ```
 
 ## Optimizations
