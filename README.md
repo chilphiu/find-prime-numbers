@@ -28,6 +28,8 @@ Next, we don't need divide a number by every number less than it to see if it is
 
 We also don't need to check all the numbers up to the sqare root either, we only need to check the primes, since all non prime numbers have prime factors, any number up to sqrt(possible_prime) that's not prime will surely have a prime that is less than it. For example, 100 is divisible by 10, but we don't need to check 100/10, we can do 100/2, or 100/5. If 100 is divisible by 10, it is also certainly divisible by it's prime factors, and thus not prime.
 
+In the table construction, we can also reduce the number of loops and multiplications in half by inserting the values into a table on opposite coordinates.
+
 ## Analysis
 ### Table:
 
